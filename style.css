@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Rampart+One&display=swap');
+
+body {
+    background: url(https://media.giphy.com/media/FizSVay8SBrEI/giphy.gif);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 1700px 1300px;
+}
+
+.dragme {
+    position: absolute;
+    width: 180px;
+    cursor: move;
+  }
+  
+  #draggable {
+    background-color: #ccc;
+    border: 1px solid #000;
+  }
+  
+h1 {
+position: fixed;
+z-index: 1;
+font-family: 'Rajdhani', sans-serif;
+font-size: 60px;
+top:35px;
+left: 50px;
+margin-top: 0;
+text-align: center;
+background-color: white;
+  }
+
+h2 {
+position: fixed;
+z-index: 1;
+font-family: 'Rajdhani', sans-serif;
+font-size: 40px;
+top: 70px;
+left: 50px;
+text-align: center;
+background-color: white;
+ }
